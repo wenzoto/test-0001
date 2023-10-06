@@ -1,0 +1,32 @@
+.wrapper {
+  position: relative;
+  left: 130px;
+  /* will-change: transform; */
+  background: rgb(255, 196, 196);
+  width: 1000px;
+  height: 1000px;
+}
+
+.container {
+  width: 600px;
+  height: 400px;
+  background: green;
+}
+
+.list-group-wrapper {
+  /* position: relative; */
+}
+
+.list-group {
+  display: flex;
+  background: rgb(3, 238, 255);
+  /* position: relative; */
+}
+
+.list-group-item {
+  min-width: 20px;
+  height: 24px;
+  margin: 5px;
+  background: rgb(255, 238, 0);
+  border: 1px solid red;
+}
